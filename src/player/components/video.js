@@ -20,7 +20,8 @@ class Video extends Component {
   render () {
     const {
       handleLoadedMetadata,
-      handleTimeUpdate
+      handleTimeUpdate,
+      handleProgressChange
     } = this.props
     return (
       <div className="Video">
